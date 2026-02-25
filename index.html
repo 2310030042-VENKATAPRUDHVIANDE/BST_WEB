@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BST Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Binary Search Tree Visualizer</h1>
+
+<div class="controls">
+    <input type="number" id="value" placeholder="Enter value">
+    <button onclick="insert()">Insert</button>
+    <button onclick="deleteNode()">Delete</button>
+    <button onclick="search()">Search</button>
+    <button onclick="inorder()">Inorder</button>
+</div>
+
+<canvas id="treeCanvas" width="1000" height="500"></canvas>
+
+<div id="output"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
